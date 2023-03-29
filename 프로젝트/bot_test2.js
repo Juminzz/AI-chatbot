@@ -10,7 +10,7 @@ const HOST = process.env.dbhost;
 const DB = "mdb";
 const mongodbURL = `mongodb://${USER}:${PWD}@${HOST}/${DB}`;
 
-// mongoose.set('useFindAndModify', false)/* 6.0 이후부터는 자동관리. 필요없다. */
+// mongoose.set('useFindAndModify', false)/* 6.0 이후부터는 자동관리. 필요없다.  */
 mongoose.set("strictQuery", false); /* 6.0 이후부터 삽입구문. 권장사항. */
 mongoose
   .connect(mongodbURL, { useNewUrlParser: true })

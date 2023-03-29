@@ -8,6 +8,6 @@ const bus =
 
 request(bus, (e, res, body) => {
   //   const rr = parser.parse(body);
-  //   const _ = rr.response.body.itemss;
+  //   const _ = rr.response.body.itemss ;
   console.log(body);
 });

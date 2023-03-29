@@ -44,7 +44,7 @@ bot.onText(/^김시민기억해 (.+)/, (msg, mat) => {
     bot.sendMessage(msg.chat.id, "기억했습니다.");
   })();
 });
-/* 자료 저장 */
+/* 자료 저장  */
 bot.onText(/^김시민저장해 (.+)/, (msg, mat) => {
   if (msg["message_id"] - 1 == obj.명령id) {
     const element = mat[1];
